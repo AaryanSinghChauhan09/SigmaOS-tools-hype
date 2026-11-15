@@ -1,0 +1,14 @@
+[package]
+name = "sigmaos-tools-hype"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+name = "sigmaos_tools_hype"
+path = "src/lib.rs"
+
+[[bin]]
+name = "hype"
+path = "src/main.rs"
+
+[dependencies]
