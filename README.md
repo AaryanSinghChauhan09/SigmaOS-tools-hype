@@ -1,1 +1,3 @@
-# SigmaOS-tools-hype\n\nSigmaOS hype - Fast Markdown presentation engine\n
+# SigmaOS-tools-hype
+
+SigmaOS hype - Fast Markdown presentation engine
