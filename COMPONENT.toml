@@ -3,7 +3,7 @@ name = "SigmaOS-tools-hype"
 tier = 2
 stability = "scaffold"
 language = "rust"
-description = "tools-hype component"
+description = "SigmaOS Tools hype - Markdown presentation engine (omacom/hype parity)"
 upstream = []
 
 [contract]
