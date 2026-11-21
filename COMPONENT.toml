@@ -1,16 +1,16 @@
 [component]
 name = "SigmaOS-tools-hype"
 tier = 2
-stability = "scaffold"
+stability = "beta"
 language = "rust"
 description = "SigmaOS Tools hype - Markdown presentation engine (omacom/hype parity)"
-upstream = []
+upstream = ["https://github.com/omacom/hype"]
 
 [contract]
-provides = ["component"]
+provides = ["deck-model", "markdown-parse", "slide-nav"]
 depends_on = []
 
 [maturity]
 status = "Implemented"
-test_evidence = "Compiles and passes AAA unit tests"
+test_evidence = "cargo test: 8 tests pass (deck parse, nav, inline md)"
 next_milestone = "Hardware and runtime integration"
