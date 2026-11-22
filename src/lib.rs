@@ -14,6 +14,7 @@
 pub mod deck;
 pub mod error;
 pub mod markdown;
+pub mod render;
 pub mod slide;
 
 pub use deck::Deck;
